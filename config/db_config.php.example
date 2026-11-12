@@ -1,0 +1,16 @@
+<?php
+/**
+ * Konfigurasi Database Hosting (MySQL)
+ * 
+ * Untuk penggunaan di cPanel / Hosting:
+ * 1. Buat database MySQL baru dan user database di cPanel (MySQL Databases).
+ * 2. Masukkan informasi host, nama database, user, dan password di bawah ini.
+ * 3. Ubah $db_driver menjadi 'mysql'.
+ */
+
+$db_driver  = 'mysql'; // 'mysql' untuk hosting langsung
+$mysql_host = 'localhost';
+$mysql_port = '3306';
+$mysql_db   = 'u1234567_landing';    // Ganti dengan nama database cPanel
+$mysql_user = 'u1234567_userdb';     // Ganti dengan user database cPanel
+$mysql_pass = 'PasswordKuat123#';     // Ganti dengan password user database

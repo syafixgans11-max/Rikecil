@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+    <rect width="960" height="520" fill="#0B1118"/>
+    <!-- Storefront preview -->
+    <rect x="28" y="24" width="904" height="52" rx="8" fill="#111827"/>
+    <circle cx="56" cy="50" r="14" fill="#2563EB"/>
+    <text x="56" y="54" fill="#FFFFFF" font-family="sans-serif" font-size="10" font-weight="900" text-anchor="middle">LF</text>
+    <text x="84" y="54" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="800">LUKIFAYS STORE</text>
+    <text x="680" y="54" fill="#94A3B8" font-family="sans-serif" font-size="12">Beranda</text>
+    <text x="760" y="54" fill="#94A3B8" font-family="sans-serif" font-size="12">Cek Pesanan</text>
+    <text x="860" y="54" fill="#94A3B8" font-family="sans-serif" font-size="12">Masuk</text>
+    <!-- Hero banner -->
+    <defs>
+      <linearGradient id="sc1" x1="0" y1="0" x2="1" y2="0.4">
+        <stop offset="0%" stop-color="#1E1B4B"/>
+        <stop offset="100%" stop-color="#2563EB"/>
+      </linearGradient>
+    </defs>
+    <rect x="28" y="96" width="904" height="176" rx="14" fill="url(#sc1)"/>
+    <text x="64" y="142" fill="#93C5FD" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">TOP UP MUDAH &amp; CEPAT</text>
+    <text x="64" y="182" fill="#FFFFFF" font-family="sans-serif" font-size="30" font-weight="900">Pilih game favoritmu</text>
+    <rect x="64" y="206" width="130" height="32" rx="8" fill="#2563EB"/>
+    <text x="129" y="226" fill="#FFFFFF" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">Mulai Sekarang</text>
+    <!-- Theme Customizer Chips -->
+    <circle cx="800" cy="184" r="46" fill="#1E293B" stroke="#3B82F6" stroke-width="2"/>
+    <text x="800" y="190" fill="#60A5FA" font-family="sans-serif" font-size="12" font-weight="800" text-anchor="middle">CUSTOM UI</text>
+    <!-- Grid below -->
+    <text x="28" y="308" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="800">Katalog Game &amp; Produk</text>
+    <rect x="28" y="328" width="212" height="164" rx="10" fill="#141B29" stroke="#222B3D"/>
+    <rect x="44" y="344" width="180" height="82" rx="8" fill="#1E293B"/>
+    <text x="134" y="390" fill="#60A5FA" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">Mobile Legends</text>
+    <text x="44" y="454" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">86 - 5000 Diamonds</text>
+    <text x="44" y="474" fill="#38BDF8" font-family="sans-serif" font-size="11">Instan 1 Detik</text>
+
+    <rect x="258" y="328" width="212" height="164" rx="10" fill="#141B29" stroke="#222B3D"/>
+    <rect x="274" y="344" width="180" height="82" rx="8" fill="#1E293B"/>
+    <text x="364" y="390" fill="#F87171" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">Free Fire</text>
+    <text x="274" y="454" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Member &amp; Diamond</text>
+    <text x="274" y="474" fill="#38BDF8" font-family="sans-serif" font-size="11">Harga Reseller Aktif</text>
+
+    <rect x="488" y="328" width="212" height="164" rx="10" fill="#141B29" stroke="#222B3D"/>
+    <rect x="504" y="344" width="180" height="82" rx="8" fill="#1E293B"/>
+    <text x="594" y="390" fill="#A78BFA" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">Valorant</text>
+    <text x="504" y="454" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">Valorant Points ID</text>
+    <text x="504" y="474" fill="#38BDF8" font-family="sans-serif" font-size="11">Validasi Tag Otomatis</text>
+
+    <rect x="718" y="328" width="214" height="164" rx="10" fill="#141B29" stroke="#222B3D"/>
+    <rect x="734" y="344" width="182" height="82" rx="8" fill="#1E293B"/>
+    <text x="825" y="390" fill="#34D399" font-family="sans-serif" font-size="14" font-weight="800" text-anchor="middle">Token &amp; PPOB</text>
+    <text x="734" y="454" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="700">PLN, Pulsa &amp; Data</text>
+    <text x="734" y="474" fill="#38BDF8" font-family="sans-serif" font-size="11">Multi Supplier H2H</text>
+  </svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" height="100%" fill="none">
+  <defs>
+    <filter id="winShadow" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#winShadow)">
+    <!-- Main Window Frame -->
+    <rect x="20" y="20" width="920" height="460" rx="8" fill="#0E131E" stroke="#1E2638" stroke-width="1.5"/>
+
+    <!-- Window Titlebar -->
+    <rect x="20" y="20" width="920" height="38" rx="8" fill="#121724"/>
+    <circle cx="46" cy="39" r="4.5" fill="#EF4444"/>
+    <circle cx="62" cy="39" r="4.5" fill="#F59E0B"/>
+    <circle cx="78" cy="39" r="4.5" fill="#10B981"/>
+    
+    <rect x="260" y="28" width="440" height="22" rx="4" fill="#1A2232" stroke="#232E42" stroke-width="1"/>
+    <text x="480" y="43" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" text-anchor="middle">admin.lukifays.store/dashboard: Live Order Stream &amp; API Monitor</text>
+
+    <!-- Sidebar Navigation -->
+    <rect x="20" y="58" width="180" height="422" fill="#0D111A"/>
+    <line x1="200" y1="58" x2="200" y2="480" stroke="#1A2234" stroke-width="1"/>
+
+    <!-- Sidebar Brand -->
+    <rect x="36" y="74" width="20" height="20" rx="4" fill="#2563EB"/>
+    <text x="64" y="89" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" fill="#FFFFFF">PANEL RESELLER</text>
+
+    <!-- Sidebar Menu Items -->
+    <g transform="translate(36, 116)">
+      <rect x="0" y="0" width="148" height="28" rx="4" fill="#2563EB" fill-opacity="0.15"/>
+      <rect x="0" y="3" width="3" height="22" rx="1.5" fill="#2563EB"/>
+      <text x="14" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#38BDF8">Dashboard</text>
+
+      <text x="14" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Kelola Transaksi</text>
+      <text x="14" y="86" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Produk &amp; Supplier</text>
+      <text x="14" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Metode Pembayaran</text>
+      <text x="14" y="154" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Member &amp; Reseller</text>
+      <text x="14" y="188" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Laporan Laba Rugi</text>
+      <text x="14" y="222" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="500" fill="#94A3B8">Pengaturan Sistem</text>
+    </g>
+
+    <!-- Content Header -->
+    <g transform="translate(225, 74)">
+      <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">Ringkasan Penjualan Realtime</text>
+      <text x="0" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#64748B">Sinkronisasi otomatis setiap 5 detik • Terhubung ke 4 Supplier H2H</text>
+    </g>
+
+    <!-- 3 Stat Cards -->
+    <g transform="translate(225, 116)">
+      <rect x="0" y="0" width="220" height="74" rx="6" fill="#121724" stroke="#1E2638" stroke-width="1"/>
+      <text x="16" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#94A3B8">TOTAL OMSET HARI INI</text>
+      <text x="16" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">Rp 24.850.000</text>
+      <rect x="156" y="12" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.12"/>
+      <text x="181" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#10B981" text-anchor="middle">+18.4%</text>
+
+      <rect x="235" y="0" width="220" height="74" rx="6" fill="#121724" stroke="#1E2638" stroke-width="1"/>
+      <text x="251" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#94A3B8">TRANSAKSI SUKSES</text>
+      <text x="251" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">1.482 <tspan font-size="11" font-weight="500" fill="#64748B">Order</tspan></text>
+      <rect x="391" y="12" width="50" height="18" rx="3" fill="#2563EB" fill-opacity="0.12"/>
+      <text x="416" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#38BDF8" text-anchor="middle">99.8%</text>
+
+      <rect x="470" y="0" width="220" height="74" rx="6" fill="#121724" stroke="#1E2638" stroke-width="1"/>
+      <text x="486" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="700" fill="#94A3B8">LABA BERSIH MARGIN</text>
+      <text x="486" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#38BDF8">Rp 4.290.000</text>
+      <rect x="626" y="12" width="50" height="18" rx="3" fill="#10B981" fill-opacity="0.12"/>
+      <text x="651" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700" fill="#10B981" text-anchor="middle">+22.1%</text>
+    </g>
+
+    <!-- Chart Card -->
+    <g transform="translate(225, 206)">
+      <rect x="0" y="0" width="455" height="170" rx="6" fill="#121724" stroke="#1E2638" stroke-width="1"/>
+      <text x="16" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Volume Transaksi 24 Jam Terakhir</text>
+
+      <!-- Clean Step/Line Chart -->
+      <polyline points="20,130 90,95 160,110 230,60 300,75 370,45 435,35" fill="none" stroke="#2563EB" stroke-width="2"/>
+      <circle cx="230" cy="60" r="3.5" fill="#38BDF8"/>
+      <circle cx="435" cy="35" r="3.5" fill="#38BDF8"/>
+    </g>
+
+    <!-- Live Transaction Stream Card -->
+    <g transform="translate(695, 206)">
+      <rect x="0" y="0" width="220" height="170" rx="6" fill="#121724" stroke="#1E2638" stroke-width="1"/>
+      <text x="14" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Log Transaksi Masuk</text>
+
+      <circle cx="24" cy="50" r="4" fill="#10B981"/>
+      <text x="36" y="49" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">MLBB 296 Diamonds</text>
+      <text x="36" y="60" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748B">INV 84920: Sukses via QRIS</text>
+
+      <circle cx="24" cy="85" r="4" fill="#10B981"/>
+      <text x="36" y="84" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Free Fire 720 DM</text>
+      <text x="36" y="95" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748B">INV 84921: Sukses via DANA</text>
+
+      <circle cx="24" cy="120" r="4" fill="#2563EB"/>
+      <text x="36" y="119" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">Genshin Welkin Moon</text>
+      <text x="36" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" fill="#64748B">INV 84922: Menghubungi API</text>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <rect x="225" y="390" width="690" height="74" rx="6" fill="#0D111A" stroke="#1A2234" stroke-width="1"/>
+    <text x="245" y="416" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#38BDF8">Status Layanan &amp; Jalur Pembayaran:</text>
+    <text x="245" y="438" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Digiflazz: Normal (21ms) • VIP Payment: Normal (19ms) • Tokovoucher: Normal (25ms) • QRIS: Aktif</text>
+  </g>
+</svg>
